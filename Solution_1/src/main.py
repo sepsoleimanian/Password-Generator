@@ -3,7 +3,7 @@ import random
 import string
 import nltk
 
-# nltk.download('words')
+nltk.download('words')
 words = nltk.corpus.words.words()
 
 class PasswordGenerator(ABC):
